@@ -1,0 +1,11 @@
+{
+  "name": "submission-with-fastapi-server",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && docker-compose up --build",
+    "client": "cd mapbox && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
