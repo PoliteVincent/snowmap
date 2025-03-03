@@ -4,7 +4,7 @@ __pycache__/
 .vscode/
 .DS_Store
 .pytest_cache/
-backaned/data/
+backend/data/
 
 # dependencies
 /node_modules
