@@ -22,7 +22,7 @@ pip
 2. Fastapi # Backend framework given that it is within the Python ecosystem
 3. rasterio # Handling tiff files reading and retrieval
 4. mercantile # Handling coordinates conversion
-5. pillow # Handleing image type conversion
+5. pillow # Handling image type conversion
 6. numpy
 7. redis
 ```

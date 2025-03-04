@@ -74,7 +74,7 @@ def get_tile(z: int, x: int, y:int) -> Optional[bytes]:
         logger.debug(f"Bounds: {bounds}")
 
         if dataset.crs != "EPSG:4326":
-            logger.debug(f"Cconverting from EPSG:4326 to {dataset.crs}")
+            logger.debug(f"Converting from EPSG:4326 to {dataset.crs}")
             bounds = transform_bounds("EPSG:4326", dataset.crs, *bounds)
 
         window = from_bounds(*bounds, transform=dataset.transform)
